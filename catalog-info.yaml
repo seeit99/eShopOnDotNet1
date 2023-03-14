@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/eShopOnDotNet
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: guests
