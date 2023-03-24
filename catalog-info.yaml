@@ -17,5 +17,12 @@ spec:
   owner: abdul.azeez@capgemini.com
   lifecycle: production
   system: eContainer Shop1
-  consumesApis: 
-    - artist-api
+  dependsOn:
+    - Resource:sample-resource
+    - Component:nishkarshraj
+  providesApis:
+    - hello-world
+    - petstore
+  consumesApis:
+    - starwars-graphql
+    - streetlights
