@@ -17,4 +17,5 @@ spec:
   owner: abdul.azeez@capgemini.com
   lifecycle: production
   system: eContainer Shop1
-  consumesApis: artist-api
+  consumesApis: 
+    - artist-api
