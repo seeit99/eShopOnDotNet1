@@ -35,11 +35,3 @@ spec:
   type: openapi
   lifecycle: production
   owner: abdul.azeez@capgemini.com
-  definition: ""
-  openapi: 3.0.1
-info:
-  title: OpenAPI definition
-  version: v0
-servers:
-  - url: http://localhost:8080
-    description: Generated server url
