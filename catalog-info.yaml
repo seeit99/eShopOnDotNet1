@@ -18,8 +18,21 @@ spec:
   lifecycle: production
   system: eContainer Shop1
   providesApis:
-    - hello-world
-    - petstore
+    - hello-world    
   consumesApis:
     - starwars-graphql
     - streetlights
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world
+  description: Hello World API
+spec:
+  system: systemA
+  type: openapi
+  lifecycle: production
+  owner: abdul.azeez@capgemini.com
+  definition: |
+    some thing here
+---
