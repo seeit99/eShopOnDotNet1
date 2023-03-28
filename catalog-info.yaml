@@ -1,7 +1,8 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "eShopOnDotNet"
+  name: eShopOnDotNet
   description: The place to be, for your shopping needs
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/TestNodejs
@@ -18,10 +19,11 @@ spec:
   lifecycle: production
   system: eContainer Shop1
   providesApis:
-    - hello-world    
+    - hello-world
   consumesApis:
     - starwars-graphql
     - streetlights
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -33,11 +35,11 @@ spec:
   type: openapi
   lifecycle: production
   owner: abdul.azeez@capgemini.com
-  definition: |
+  definition: ""
   openapi: 3.0.1
 info:
   title: OpenAPI definition
   version: v0
 servers:
-- url: http://localhost:8080
-  description: Generated server url
+  - url: http://localhost:8080
+    description: Generated server url
