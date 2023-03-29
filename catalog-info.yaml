@@ -101,7 +101,7 @@ definitions:
       tags:
         type: array
         items:
-          $ref: '#/definitions/Tag'
+          $ref: "#/definitions/Tag"
   Tag:
     type: object
     properties:
