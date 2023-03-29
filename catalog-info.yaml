@@ -37,23 +37,4 @@ spec:
   owner: my-team
   lifecycle: experimental
   definition:
-    type: http
-    uri: https://petstore.swagger.io/v2/swagger.json
-  versions:
-    - version: 1.0.0
-      changelog:
-        summary: Initial release
-        description: First version of my API
-      spec:
-        type: openapi
-        lifecycle: experimental
-        alpha: {}
-        owner: my-team
-        definition:
-          type: swagger
-          data: |
-            swagger: '2.0'
-            info:
-              title: My API
-              version: '1.0.0'
-              description: My awesome API
+    $text: https://petstore.swagger.io/v2/swagger.json
