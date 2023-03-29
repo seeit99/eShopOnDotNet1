@@ -34,8 +34,6 @@ metadata:
     owner: my-team
 spec:
   type: openapi
-  lifecycle:
-    alpha: {}
   owner: my-team
   definition:
     type: http
