@@ -46,7 +46,7 @@ spec:
       spec:
         type: openapi
         lifecycle: ""
-          alpha: {}
+        alpha: {}
         owner: my-team
         definition:
           type: swagger
