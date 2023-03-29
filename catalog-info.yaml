@@ -1,6 +1,11 @@
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
+backend:
+  baseUrl: http://localhost:3000/
+  reading:
+    allow:
+      - host: 'petstore.swagger.io'
 metadata:
   name: eShopOnDotNet
   description: The place to be, for your shopping needs
