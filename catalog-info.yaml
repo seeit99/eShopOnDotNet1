@@ -45,7 +45,7 @@ spec:
         description: First version of my API
       spec:
         type: openapi
-        lifecycle: ""
+        lifecycle: experimental
         alpha: {}
         owner: my-team
         definition:
