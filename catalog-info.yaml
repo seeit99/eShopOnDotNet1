@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Pet Store
+  name: Pet-Store
   description: The place to be, for your pet shopping needs
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/TestNodejs
