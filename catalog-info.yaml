@@ -17,21 +17,21 @@ spec:
   type: service
   owner: abdul.azeez@capgemini.com
   lifecycle: production
-  system: Pet Store
+  system: Pet eStore
   providesApis:
-    - my-api
+    - Pet-eStore-APIs
 
 ---
 apiVersion: backstage.io/v1beta1
 kind: API
 metadata:
-  name: my-api
-  description: My awesome API
+  name: Pet-eStore-APIs
+  description: The API collection provides all the API's related to Pet eStore
   labels:
-    owner: my-team
+    owner: abdul.azeez@capgemini.com
 spec:
   type: openapi
-  owner: my-team
+  owner: abdul.azeez@capgemini.com
   lifecycle: experimental
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
