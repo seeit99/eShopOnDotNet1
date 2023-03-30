@@ -18,8 +18,6 @@ spec:
   owner: abdul.azeez@capgemini.com
   lifecycle: production
   system: Pet eStore
-  providesApis:
-    - Pet-eStore-APIs
 
 ---
 apiVersion: backstage.io/v1beta1
