@@ -19,7 +19,9 @@ spec:
   lifecycle: production
   system: Pet eStore
   dependsOn:
-    - resource:default/Petstore-DB
+    - kind: Component
+      name: PetStore-DB
+      namespace: petstoredb
   providesApis:
     - Pet-eStore-APIs
 ---
