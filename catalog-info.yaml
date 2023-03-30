@@ -19,10 +19,9 @@ spec:
   lifecycle: production
   system: eContainer Shop1
   providesApis:
-    - hello-world
+    - my-api
   consumesApis:
-    - starwars-graphql
-    - streetlights
+    - my-api
 
 ---
 apiVersion: backstage.io/v1beta1
