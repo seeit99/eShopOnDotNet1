@@ -19,7 +19,7 @@ spec:
   lifecycle: production
   system: Pet eStore
   dependsOn: 
-    - resource:default/example-website
+    - component:default/example-website
   providesApis:
     - Pet-eStore-APIs
 ---
