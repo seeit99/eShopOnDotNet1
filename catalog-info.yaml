@@ -18,10 +18,8 @@ spec:
   owner: abdul.azeez@capgemini.com
   lifecycle: production
   system: Pet eStore
-  dependsOn:
-    - kind: Component
-      name: PetStore-DB
-      namespace: petstoredb
+  dependsOn: 
+  - resource: Pet-eStore-APIs
   providesApis:
     - Pet-eStore-APIs
 ---
