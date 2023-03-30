@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: eShopOnDotNet
-  description: The place to be, for your shopping needs
+  name: Pet Store
+  description: The place to be, for your pet shopping needs
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/TestNodejs
     jenkins.io/job-full-name: TF-22-02-2023
@@ -17,10 +17,8 @@ spec:
   type: service
   owner: abdul.azeez@capgemini.com
   lifecycle: production
-  system: eContainer Shop1
+  system: Pet Store
   providesApis:
-    - my-api
-  consumesApis:
     - my-api
 
 ---
