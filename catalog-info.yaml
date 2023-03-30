@@ -36,3 +36,13 @@ spec:
   lifecycle: experimental
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: petstore-db
+  description: Stores petstore details
+spec:
+  type: database
+  owner: petstoreDB-team
+  system: petstore-DB
