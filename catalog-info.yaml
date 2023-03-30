@@ -18,8 +18,6 @@ spec:
   owner: abdul.azeez@capgemini.com
   lifecycle: production
   system: Pet eStore
-  dependsOn: 
-  - resource:default/Pet-eStore-APIs
   providesApis:
     - Pet-eStore-APIs
 ---
@@ -34,5 +32,7 @@ spec:
   type: openapi
   owner: abdul.azeez@capgemini.com
   lifecycle: experimental
+    dependsOn: 
+  - resource:default/Pet-Store
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
