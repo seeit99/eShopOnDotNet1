@@ -20,6 +20,7 @@ spec:
   system: Pet eStore
   dependsOn: 
     - component:default/example-website
+    - resource:default/petstore-db
   providesApis:
     - Pet-eStore-APIs
 ---
