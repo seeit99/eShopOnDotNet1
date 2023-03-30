@@ -7,6 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/TestNodejs
     jenkins.io/job-full-name: TF-22-02-2023
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://backstage.io/plugins/
       title: Backstage Plugins
