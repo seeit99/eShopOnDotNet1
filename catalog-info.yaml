@@ -34,5 +34,5 @@ spec:
   lifecycle: experimental
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
-   consumesApis:
+  consumesApis:
     - Pet-Store
