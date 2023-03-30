@@ -27,11 +27,6 @@ spec:
 ---
 apiVersion: backstage.io/v1beta1
 kind: API
-backend:
-  baseUrl: http://localhost:3000/
-  reading:
-    allow:
-      - host: 'petstore.swagger.io'
 metadata:
   name: my-api
   description: My awesome API
