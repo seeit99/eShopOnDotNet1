@@ -9,3 +9,5 @@ edit_uri: blob/master/docs/
 nav:
     - Home: index.md
 
+plugins:
+  - techdocs-core
