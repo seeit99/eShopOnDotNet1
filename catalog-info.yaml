@@ -6,7 +6,7 @@ metadata:
   description: The place to be, for your pet shopping needs
   annotations:
     github.com/project-slug: abdulkhadar-Capgemini/TestNodejs
-    jenkins.io/job-full-name: TF-22-02-2023
+    jenkins.io/job-full-name: terratest
     backstage.io/techdocs-ref: dir:.
   links:
     - url: https://backstage.io/plugins/
