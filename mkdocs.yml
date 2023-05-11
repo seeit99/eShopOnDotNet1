@@ -3,9 +3,6 @@ site_url: https://www.mkdocs.org/
 site_description: Pet Shop Project Documentation.
 site_author: MkDocs Team
 
-repo_url: https://github.com/mkdocs/mkdocs/
-edit_uri: blob/master/docs/
-
 nav:
     - Home: index.md
 
