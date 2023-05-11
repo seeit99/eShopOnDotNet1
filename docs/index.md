@@ -12,9 +12,9 @@ Our Petstore API requires authentication for all requests. To authenticate, incl
 
 #Available Endpoints
 
-GET /pets - Returns a list of all pets available in our store.
-GET /pets/{id} - Returns a specific pet by its ID.
-GET /products - Returns a list of all products available in our store.
-GET /products/{id} - Returns a specific product by its ID.
-GET /services - Returns a list of all services available in our store.
-GET /services/{id} - Returns a specific service by its ID.
+##GET /pets - Returns a list of all pets available in our store.
+##GET /pets/{id} - Returns a specific pet by its ID.
+##GET /products - Returns a list of all products available in our store.
+##GET /products/{id} - Returns a specific product by its ID.
+##GET /services - Returns a list of all services available in our store.
+##GET /services/{id} - Returns a specific service by its ID.
