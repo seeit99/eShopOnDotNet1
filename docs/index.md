@@ -1,4 +1,6 @@
-Welcome to our Petstore API documentation! This document provides information on how to interact with our Petstore API to access data about our available pets, products, and services. Our Petstore API is RESTful and follows industry-standard conventions for resource naming, HTTP methods, and response formats.
+#Welcome to our Petstore API documentation! 
+
+This document provides information on how to interact with our Petstore API to access data about our available pets, products, and services. Our Petstore API is RESTful and follows industry-standard conventions for resource naming, HTTP methods, and response formats.
 
 #Base URL
 
