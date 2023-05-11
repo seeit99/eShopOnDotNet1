@@ -1,12 +1,1 @@
 site_name: Pet Shop Docs
-site_url: https://www.mkdocs.org/
-site_description: Pet Shop Project Documentation.
-site_author: MkDocs Team
-
-docs_dir: ./docs
-
-nav:
-    - Home: index.md
-
-plugins:
-  - techdocs-core
